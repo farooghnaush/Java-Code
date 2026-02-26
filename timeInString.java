@@ -12,7 +12,9 @@ public class timeInString {
     public String solution(int T) {
         // Implement your solution here
         int min, sec, hour, remhour;
+
         String b=T+"";
+        
         if(T<60){
             b=T+"s";   
         }
